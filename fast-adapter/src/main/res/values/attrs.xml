@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AgileRefreshLayout">
+        <attr name="srlPrimaryColor" />
+        <attr name="srlHeaderHeight" />
+        <attr name="srlFooterHeight" />
+    </declare-styleable>
+
+</resources>
