@@ -10,7 +10,15 @@ import java.util.List;
 
 public class MyAdapter extends BaseQuickAdapter<HomeItem, BaseViewHolder> {
 
-    public MyAdapter(int layoutResId, @Nullable List data) {
+    public MyAdapter(@Nullable List<HomeItem> data) {
+        super(data);
+    }
+
+    public MyAdapter(int layoutResId) {
+        super(layoutResId);
+    }
+
+    public MyAdapter(int layoutResId, @Nullable List<HomeItem> data) {
         super(layoutResId, data);
     }
 

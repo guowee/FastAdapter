@@ -5,6 +5,9 @@ public class HomeItem {
     private int resId;
     private String content;
 
+    public HomeItem() {
+    }
+
     public HomeItem(int resId, String content) {
         this.resId = resId;
         this.content = content;
