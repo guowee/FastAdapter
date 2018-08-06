@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
+    <attr name="srlDrawableSize" format="dimension" /><!--图片尺寸-->
+    <attr name="srlDrawableArrowSize" format="dimension" /><!--箭头图片尺寸-->
+    <attr name="srlDrawableProgressSize" format="dimension" /><!--箭头图片尺寸-->
+    <attr name="srlDrawableMarginRight" format="dimension" /><!--图片和文字的间距-->
+    <attr name="srlTextSizeTitle" format="dimension" /><!--标题字体-->
+    <attr name="srlTextSizeTime" format="dimension" /><!--时间字体-->
+    <attr name="srlFinishDuration" format="integer" /><!--完成时停留时间-->
+    <attr name="srlPrimaryColor" format="color" /><!--主要颜色-->
+    <attr name="srlAccentColor" format="color" /><!--强调颜色-->
+    <attr name="srlDrawableArrow" format="reference" /><!--箭头图片-->
+    <attr name="srlDrawableProgress" format="reference" /><!--转动图片-->
+    <attr name="srlEnableHorizontalDrag" format="boolean" /><!--支持水平拖动-->
+
     <declare-styleable name="AgileRefreshLayout">
         <attr name="srlPrimaryColor" />
         <attr name="srlAccentColor" />
-        <attr name="srlHeaderHeight" />
-        <attr name="srlFooterHeight" />
+        <attr name="srlHeaderHeight" format="dimension" />
+        <attr name="srlFooterHeight" format="dimension" />
         <attr name="srlReboundDuration" format="integer" />
         <attr name="srlHeaderInsetStart" format="dimension" />
         <attr name="srlFooterInsetStart" format="dimension" />
@@ -38,7 +53,7 @@
     </declare-styleable>
 
     <declare-styleable name="AgileRefreshLayout_Layout">
-        <attr name="layout_srlSpinnerStyle" />
+        <attr name="layout_srlSpinnerStyle" format="integer" />
         <attr name="layout_srlBackgroundColor" format="color" />
     </declare-styleable>
 
