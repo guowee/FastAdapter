@@ -1,4 +1,4 @@
-package com.missile.fastadapter.refresh.inf;
+package com.missile.fastadapter.refresh.api;
 
 import android.view.View;
 

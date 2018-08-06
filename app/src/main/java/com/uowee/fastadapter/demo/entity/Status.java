@@ -1,4 +1,4 @@
-package com.uowee.fastadapter.demo;
+package com.uowee.fastadapter.demo.entity;
 
 
 public class Status {

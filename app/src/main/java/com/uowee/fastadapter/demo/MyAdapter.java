@@ -4,6 +4,7 @@ import android.support.annotation.Nullable;
 
 import com.missile.fastadapter.BaseQuickAdapter;
 import com.missile.fastadapter.BaseViewHolder;
+import com.uowee.fastadapter.demo.entity.HomeItem;
 
 import java.util.List;
 

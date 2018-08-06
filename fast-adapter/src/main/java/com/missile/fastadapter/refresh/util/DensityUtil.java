@@ -1,4 +1,4 @@
-package com.missile.fastadapter.util;
+package com.missile.fastadapter.refresh.util;
 
 import android.content.res.Resources;
 
